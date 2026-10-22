@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M450 Inventory Manager – Test Reports</title>
+    <style>
+        :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+        body { max-width: 760px; margin: 4rem auto; padding: 0 1.5rem; line-height: 1.6; }
+        h1 { line-height: 1.2; }
+        .reports { display: grid; gap: 1rem; margin-top: 2rem; }
+        a { display: block; padding: 1rem 1.25rem; border: 1px solid #8886;
+            border-radius: .6rem; text-decoration: none; }
+        a:hover { border-color: currentColor; }
+        small { opacity: .75; }
+    </style>
+</head>
+<body>
+<h1>M450 Inventory Manager</h1>
+<p>Automatisch erzeugte Testresultate der GitLab-CI-Pipeline.</p>
+<div class="reports">
+    <a href="coverage/index.html">
+        <strong>JaCoCo Code-Coverage</strong><br>
+        <small>Abdeckung nach Packages, Klassen und Quellzeilen</small>
+    </a>
+    <a href="surefire.html">
+        <strong>JUnit Testresultate</strong><br>
+        <small>Ausgeführte Tests, Laufzeiten und Fehlerdetails</small>
+    </a>
+</div>
+</body>
+</html>
